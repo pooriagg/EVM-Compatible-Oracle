@@ -2,7 +2,7 @@
 Oracle Document
 ======================
 
-This oracle can bring real world data into EVM compatible blockchain and furthermore you can generate random number (VRF) from outside the blockchain to secure it and then transfer it info the smart contracts.
+This oracle can bring real world data into EVM compatible blockchains, furthermore you can generate random number (VRF) from outside the blockchain to secure it and then transfer it info the smart contracts.
 
 Oracle interface
 ==================

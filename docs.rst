@@ -50,7 +50,7 @@ Request random number
         uint _count
     ) reentrant external returns(bool status);
 
-Will give the caller array of random numbers.
+Will give the caller, a array of random numbers via calling the ``getVRF`` on the caller smart contract side.
 
 ----------
 Parameters

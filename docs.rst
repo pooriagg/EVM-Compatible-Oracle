@@ -28,6 +28,8 @@ Request price feeds
 
 Will give the caller the price of the ``_symbol`` via calling the ``getPrice`` function on the caller side smart contract.
 
+.. warning:: Caller must be a smart contract which impelemented the ``getPrice`` function properly.
+
 ----------
 Parameters
 ----------
@@ -51,6 +53,8 @@ Request random number
     ) reentrant external returns(bool status);
 
 Will give the caller, a array of random numbers via calling the ``getVRF`` on the caller smart contract side.
+
+.. warning:: Caller must be a smart contract which impelemented the ``getVRF`` function properly.
 
 ----------
 Parameters

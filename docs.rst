@@ -42,7 +42,7 @@ Returns
 
 1. ``status`` - ``bool``: Indicates which request handles successfully or not.
 
-Request random number
+Request random numbers
 =======================
 
 .. code-block:: solidity

@@ -67,4 +67,4 @@ Parameters
 Returns
 -------
 
-1. ``status`` - ``bool``: Indicates which request handles successfully or not.
+1. ``status`` - ``bool``: Indicates whether request handled successfully or not.

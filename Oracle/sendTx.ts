@@ -38,7 +38,7 @@ async function sendPrice(
         { data: { market_data: { current_price: { usd: TstrOrNum } } } }
     ) => {
         let 
-            to:string,
+            to: string,
             data: string,
             Tx: Ttx,
             chainId: TstrOrNum,
@@ -109,7 +109,7 @@ const sendRandomNumbers = async (
 ) => {
     try {
         let 
-            to:string,
+            to: string,
             data: string,
             Tx: Ttx,
             chainId: TstrOrNum,
